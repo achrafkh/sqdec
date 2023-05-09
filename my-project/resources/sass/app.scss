@@ -1,0 +1,35 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+
+.active-board {
+    display: flex;
+    justify-content: space-between;
+
+    .select-board {
+        max-width: 85%;
+    }
+}
+
+.container-card .main-column.col {
+    padding: 2px;
+
+    > .card > .card-body{
+        padding: 0;
+        margin-bottom: 4px;
+    }
+}
+
+.card.child {
+    cursor: pointer;
+}
+
+.btn-primary.full-width {
+    width: 100%
+}
